@@ -1,0 +1,42 @@
+body {
+  font-size: 15pt;
+  font-family: monospace;
+  background-color: #42445A
+}
+
+.link {
+  text-decoration: none;
+  color: #62BF63;
+  border: solid #62BF63 2px;
+  display: block;
+  width: fit-content;
+  position: relative;
+  margin: auto;
+  overflow: hidden
+
+}
+
+.link::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  transform: translatex(-100%);
+  transition: .3s;
+
+}
+
+span {
+  display: block;
+  transition: .3s;
+  padding: 15px
+}
+
+.link:hover:before {
+  transform: translatex(0);
+}
+.link:hover span {
+  transform: translatex(100%);
+
+}
