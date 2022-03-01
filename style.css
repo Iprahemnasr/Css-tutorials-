@@ -1,5 +1,5 @@
 body {
-  font-size: 15pt;
+  font-size: 20pt;
   font-family: monospace;
   background-color: #42445A
 }
@@ -24,7 +24,6 @@ body {
   padding: 15px;
   transform: translatex(-100%);
   transition: .3s;
-
 }
 
 span {
