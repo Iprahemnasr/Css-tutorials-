@@ -21,9 +21,10 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 15px;
   transform: translatex(-100%);
   transition: .3s;
+  width: fit-content;
+  margin-top:15px;
 }
 
 span {
